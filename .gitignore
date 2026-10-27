@@ -1,0 +1,12 @@
+# raw and converted data (too big for GitHub; see README for download)
+data/
+data_tidy/
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# mac
+.DS_Store

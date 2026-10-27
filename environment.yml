@@ -1,0 +1,9 @@
+name: fedhar
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - matplotlib
+  - numpy
+  - scikit-learn

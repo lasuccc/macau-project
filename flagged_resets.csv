@@ -1,0 +1,12 @@
+user,activity,device,environment,rows,eff_hz,resets
+105,electric,watch,indoor,30673,51.12166666666667,1
+105,still,watch,indoor,29975,49.958333333333336,1
+114,walker,watch,indoor,30503,50.83833333333333,2
+43,manual,phone,indoor,32542,54.236666666666665,1
+43,walking,phone,indoor,32758,54.596666666666664,1
+88,walking,watch,outdoor,28723,47.87166666666667,1
+93,crutches,phone,indoor,33298,55.49666666666667,1
+93,manual,phone,indoor,33268,55.446666666666665,1
+93,walking,phone,indoor,32933,54.888333333333335,1
+93,walking,phone,outdoor,33219,55.365,1
+95,crutches,watch,outdoor,30335,50.55833333333333,1
