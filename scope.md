@@ -38,3 +38,6 @@ New data collection, clinical claims, real-device networking, complex deep archi
 
 ## Limits to state in the report
 Participants had no mobility disabilities and simulated the aid conditions. Recordings are 10 minutes per activity under supervision. Participants were young (mean age 23.8). Phone position varies by user and is not recorded in the files. The study is a single-computer simulation, so it does not show deployment feasibility or privacy protection.
+
+## Split decision (Week 2)
+Splits use the 31/10/10 proportion from the project overview, scaled to the HAR-PMD watch cohort (60 users, about 36/12/12), split seed 42. Whole participants are assigned to one split only.

@@ -1,0 +1,25 @@
+{
+  "dataset": "HAR-PMD, Zenodo doi:10.5281/zenodo.7939223",
+  "time": {
+    "unit": "seconds since the start of each recording",
+    "trimming": "The dataset authors removed 30 s from the start and end of each 11 min recording. Files are exactly 600 s, so no further trimming is applied.",
+    "recording_s": 600
+  },
+  "activities": ["still", "walking", "crutches", "walker", "manual", "electric"],
+  "streams": {
+    "accel": ["LAccX", "LAccY", "LAccZ"],
+    "gyro": ["GyrX", "GyrY", "GyrZ"]
+  },
+  "grid_hz": 60,
+  "window_s": 5,
+  "overlap": 0,
+  "max_gap_s": 0.2,
+  "reset_rule": "A backward time step starts a new segment. Rows are never sorted.",
+  "duplicate_timestamp_rule": "Within a segment keep the first row for a repeated timestamp and log whether the values differed.",
+  "interpolation": "Linear, inside each segment only. No extrapolation and no filling across segment boundaries.",
+  "feature_stats": ["mean", "std", "min", "max", "rms"],
+  "std_ddof": 0,
+  "cohort": {"device": "watch", "min_windows_per_class": 60},
+  "split": {"seed": 42, "test_frac": 0.2, "val_frac_of_remainder": 0.25, "method": "GroupShuffleSplit over users"},
+  "alignment": {"bin_s": 0.1, "max_lag_s": 30, "max_timing_error_s": 1.0, "required_pass_rate": 0.8}
+}

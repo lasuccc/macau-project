@@ -1,0 +1,5 @@
+,phone,watch
+1 nominal (files x 120),172800.0,86400.0
+2 after segmentation,169432.0,86315.0
+3 after finite check (kept),169432.0,86315.0
+kept %,98.05,99.9

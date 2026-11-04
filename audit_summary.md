@@ -89,3 +89,11 @@ Caveats: the counts are approximate. Windows are fixed bins from t = 0, windows 
 ## Dataset choice
 
 The project overview describes the WISDM dataset (51 users, 18 activities, 31/10/10 split). This audit covers HAR-PMD (120 users, 6 activities). The supervisor confirmed at the first supervision meeting that HAR-PMD is acceptable for the project. Split sizes and window parameters will be set from HAR-PMD's population in Week 2.
+
+## Week 2 results
+
+- Windows: 169,432 of 172,800 phone windows kept (98.05%), and 86,315 of 86,400 watch windows kept (99.90%). No window had a broken value.
+- Problems found: 12 clock jumps, 13,557 gaps over 0.2 seconds, and no repeated timestamps.
+- The phone loses the most. Users 17 and 2 lose 1,204 and 785 of their 1,440 windows. Neither has a watch, so the watch study does not use them.
+- All 60 watch users are in the study. The split is 36 train, 12 validation and 12 test, with seed 42.
+- Phone and watch do not line up in time, so I will not combine them. See alignment_audit.md.
