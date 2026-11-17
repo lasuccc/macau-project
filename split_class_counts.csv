@@ -1,4 +1,4 @@
-split,still,walking,crutches,walker,manual,electric
-test,2878,2869,2879,2878,2879,2880
-train,8629,8612,8639,8638,8636,8634
-val,2880,2878,2880,2879,2869,2878
+split,crutches,electric,manual,still,walker,walking
+test,2880,2880,2880,2876,2879,2879
+train,8638,8635,8634,8631,8637,8600
+val,2880,2877,2870,2880,2879,2880

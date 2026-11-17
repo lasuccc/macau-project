@@ -1,0 +1,121 @@
+user,has_watch,phone_eligible,watch_eligible,in_cohort,reason,split
+1,False,True,False,False,no watch data (phone only user),excluded
+2,False,True,False,False,no watch data (phone only user),excluded
+3,False,True,False,False,no watch data (phone only user),excluded
+4,False,True,False,False,no watch data (phone only user),excluded
+5,False,True,False,False,no watch data (phone only user),excluded
+6,False,True,False,False,no watch data (phone only user),excluded
+7,False,True,False,False,no watch data (phone only user),excluded
+8,False,True,False,False,no watch data (phone only user),excluded
+9,False,True,False,False,no watch data (phone only user),excluded
+10,False,True,False,False,no watch data (phone only user),excluded
+11,False,True,False,False,no watch data (phone only user),excluded
+12,False,True,False,False,no watch data (phone only user),excluded
+13,False,True,False,False,no watch data (phone only user),excluded
+14,False,True,False,False,no watch data (phone only user),excluded
+15,False,True,False,False,no watch data (phone only user),excluded
+16,False,True,False,False,no watch data (phone only user),excluded
+17,False,False,False,False,no watch data (phone only user),excluded
+18,False,True,False,False,no watch data (phone only user),excluded
+19,False,True,False,False,no watch data (phone only user),excluded
+20,False,True,False,False,no watch data (phone only user),excluded
+21,False,True,False,False,no watch data (phone only user),excluded
+22,False,True,False,False,no watch data (phone only user),excluded
+23,False,True,False,False,no watch data (phone only user),excluded
+24,False,True,False,False,no watch data (phone only user),excluded
+25,False,True,False,False,no watch data (phone only user),excluded
+26,False,True,False,False,no watch data (phone only user),excluded
+27,False,True,False,False,no watch data (phone only user),excluded
+28,False,True,False,False,no watch data (phone only user),excluded
+29,False,True,False,False,no watch data (phone only user),excluded
+30,False,True,False,False,no watch data (phone only user),excluded
+31,False,True,False,False,no watch data (phone only user),excluded
+32,False,True,False,False,no watch data (phone only user),excluded
+33,False,True,False,False,no watch data (phone only user),excluded
+34,False,True,False,False,no watch data (phone only user),excluded
+35,False,True,False,False,no watch data (phone only user),excluded
+36,False,True,False,False,no watch data (phone only user),excluded
+37,False,True,False,False,no watch data (phone only user),excluded
+38,False,True,False,False,no watch data (phone only user),excluded
+39,False,True,False,False,no watch data (phone only user),excluded
+40,False,True,False,False,no watch data (phone only user),excluded
+41,False,True,False,False,no watch data (phone only user),excluded
+42,False,True,False,False,no watch data (phone only user),excluded
+43,False,True,False,False,no watch data (phone only user),excluded
+44,False,True,False,False,no watch data (phone only user),excluded
+45,False,True,False,False,no watch data (phone only user),excluded
+46,False,True,False,False,no watch data (phone only user),excluded
+47,False,True,False,False,no watch data (phone only user),excluded
+48,False,True,False,False,no watch data (phone only user),excluded
+49,False,True,False,False,no watch data (phone only user),excluded
+50,False,True,False,False,no watch data (phone only user),excluded
+51,False,True,False,False,no watch data (phone only user),excluded
+52,False,True,False,False,no watch data (phone only user),excluded
+53,False,True,False,False,no watch data (phone only user),excluded
+54,False,True,False,False,no watch data (phone only user),excluded
+55,False,True,False,False,no watch data (phone only user),excluded
+56,False,True,False,False,no watch data (phone only user),excluded
+57,False,True,False,False,no watch data (phone only user),excluded
+58,False,True,False,False,no watch data (phone only user),excluded
+59,False,True,False,False,no watch data (phone only user),excluded
+60,False,True,False,False,no watch data (phone only user),excluded
+61,True,True,True,True,,test
+62,True,True,True,True,,train
+63,True,True,True,True,,train
+64,True,True,True,True,,train
+65,True,True,True,True,,val
+66,True,True,True,True,,test
+67,True,True,True,True,,val
+68,True,True,True,True,,train
+69,True,True,True,True,,train
+70,True,True,True,True,,train
+71,True,True,True,True,,val
+72,True,True,True,True,,train
+73,True,True,True,True,,test
+74,True,True,True,True,,test
+75,True,True,True,True,,train
+76,True,True,True,True,,train
+77,True,True,True,True,,val
+78,True,True,True,True,,train
+79,True,True,True,True,,train
+80,True,True,True,True,,train
+81,True,True,True,True,,train
+82,True,True,True,True,,train
+83,True,True,True,True,,train
+84,True,True,True,True,,val
+85,True,True,True,True,,train
+86,True,True,True,True,,train
+87,True,True,True,True,,train
+88,True,True,True,True,,train
+89,True,True,True,True,,val
+90,True,True,True,True,,val
+91,True,True,True,True,,val
+92,True,True,True,True,,val
+93,True,True,True,True,,train
+94,True,True,True,True,,test
+95,True,True,True,True,,train
+96,True,True,True,True,,train
+97,True,True,True,True,,test
+98,True,True,True,True,,train
+99,True,True,True,True,,train
+100,True,True,True,True,,train
+101,True,True,True,True,,train
+102,True,True,True,True,,train
+103,True,True,True,True,,train
+104,True,True,True,True,,val
+105,True,True,True,True,,train
+106,True,True,True,True,,test
+107,True,True,True,True,,test
+108,True,True,True,True,,train
+109,True,True,True,True,,test
+110,True,True,True,True,,val
+111,True,True,True,True,,test
+112,True,True,True,True,,train
+113,True,True,True,True,,train
+114,True,True,True,True,,val
+115,True,True,True,True,,test
+116,True,True,True,True,,train
+117,True,True,True,True,,train
+118,True,True,True,True,,test
+119,True,True,True,True,,train
+120,True,True,True,True,,train

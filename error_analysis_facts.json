@@ -1,0 +1,67 @@
+{
+ "top_confusions_mlp": [
+  {
+   "true": "crutches",
+   "pred": "walker",
+   "count": 202
+  },
+  {
+   "true": "crutches",
+   "pred": "manual",
+   "count": 131
+  },
+  {
+   "true": "still",
+   "pred": "electric",
+   "count": 130
+  },
+  {
+   "true": "walker",
+   "pred": "crutches",
+   "count": 124
+  },
+  {
+   "true": "manual",
+   "pred": "walking",
+   "count": 78
+  }
+ ],
+ "weakest_users_mlp": [
+  {
+   "user": 71,
+   "macro_f1": 0.8828900908289077,
+   "n_windows": 1440,
+   "absent_classes": ""
+  },
+  {
+   "user": 83,
+   "macro_f1": 0.8893423512336484,
+   "n_windows": 1440,
+   "absent_classes": ""
+  },
+  {
+   "user": 72,
+   "macro_f1": 0.9131950297944996,
+   "n_windows": 1439,
+   "absent_classes": ""
+  },
+  {
+   "user": 102,
+   "macro_f1": 0.9139054376522115,
+   "n_windows": 1440,
+   "absent_classes": ""
+  },
+  {
+   "user": 107,
+   "macro_f1": 0.9146507456162758,
+   "n_windows": 1440,
+   "absent_classes": ""
+  }
+ ],
+ "users_with_absent_classes": 0,
+ "per_user_macro_f1_min_median_max": [
+  0.8828900908289077,
+  0.9180181336529853,
+  0.9603679146460364
+ ]
+}

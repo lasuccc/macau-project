@@ -1,0 +1,8 @@
+{
+  "labels": ["still", "walking", "crutches", "walker", "manual", "electric"],
+  "seed": 42,
+  "logistic": {"C": 1.0, "max_iter": 1000},
+  "mlp": {"hidden": 64, "learning_rates": [0.01, 0.03], "batch_size": 64, "max_epochs": 50},
+  "diagnostics": {"overfit_windows_per_class": 20, "overfit_lr": 0.03, "overfit_max_epochs": 5000,
+                  "shuffle_epochs": 10, "shuffle_lr": 0.03}
+}

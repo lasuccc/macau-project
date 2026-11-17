@@ -1,0 +1,24 @@
+{
+ "selected_lr": 0.03,
+ "selected_model": "mlp_lr0.03",
+ "runs": {
+  "0.01": {
+   "best_epoch": 48,
+   "val_macro_f1": 0.9100461262724432,
+   "train_macro_f1": 0.9498091052884265,
+   "updates_per_epoch": 809,
+   "updates_to_best": 38832,
+   "total_updates": 40450,
+   "runtime_s": 9.7
+  },
+  "0.03": {
+   "best_epoch": 49,
+   "val_macro_f1": 0.9255558419686868,
+   "train_macro_f1": 0.962920809287572,
+   "updates_per_epoch": 809,
+   "updates_to_best": 39641,
+   "total_updates": 40450,
+   "runtime_s": 9.6
+  }
+ }
+}

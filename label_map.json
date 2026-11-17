@@ -1,0 +1,8 @@
+{
+ "still": 0,
+ "walking": 1,
+ "crutches": 2,
+ "walker": 3,
+ "manual": 4,
+ "electric": 5
+}

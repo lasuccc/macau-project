@@ -1,0 +1,7 @@
+,pred_still,pred_walking,pred_crutches,pred_walker,pred_manual,pred_electric
+true_still,2662,10,32,31,15,130
+true_walking,7,2820,0,2,32,19
+true_crutches,7,14,2523,202,131,3
+true_walker,21,13,124,2648,3,70
+true_manual,20,78,61,7,2657,47
+true_electric,75,29,12,48,40,2673
