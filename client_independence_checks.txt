@@ -1,0 +1,49 @@
+PASS  training client A does not change the global state  (id 67d0880f7bb2)
+PASS  training client A first does not change client B's result
+PASS  changing client A's data does not change client B's result
+PASS  a trained client really differs from the global weights (training happened)
+PASS  a client's returned weights are a separate copy; editing them leaves the global state alone
+PASS  a single-client round returns exactly that client's trained state
+PASS  each round picks min(10, 36) = 10 distinct clients  (sizes [10, 10, 10, 10, 10, 10, 10, 10, 10, 10])
+PASS  with only 4 clients all 4 are picked
+PASS  the same seed gives the same client picks
+PASS  36 clients, one per training user; no window is in two clients; 51775 windows in total
+PASS  every client has windows from both environments  (all clients have both)
+
+Client table (user, windows, windows per environment)
+  user 64: 1439 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 719}
+  user 65: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 66: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 68: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 70: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 76: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 77: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 78: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 79: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 81: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 82: 1439 windows, {np.str_('indoor'): 719, np.str_('outdoor'): 720}
+  user 84: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 85: 1439 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 719}
+  user 86: 1438 windows, {np.str_('indoor'): 719, np.str_('outdoor'): 719}
+  user 87: 1439 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 719}
+  user 88: 1410 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 690}
+  user 89: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 90: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 91: 1438 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 718}
+  user 92: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 93: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 95: 1439 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 719}
+  user 98: 1439 windows, {np.str_('indoor'): 719, np.str_('outdoor'): 720}
+  user 100: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 101: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 103: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 105: 1437 windows, {np.str_('indoor'): 717, np.str_('outdoor'): 720}
+  user 109: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 110: 1439 windows, {np.str_('indoor'): 719, np.str_('outdoor'): 720}
+  user 111: 1438 windows, {np.str_('indoor'): 719, np.str_('outdoor'): 719}
+  user 113: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}
+  user 115: 1428 windows, {np.str_('indoor'): 708, np.str_('outdoor'): 720}
+  user 116: 1437 windows, {np.str_('indoor'): 718, np.str_('outdoor'): 719}
+  user 117: 1438 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 718}
+  user 118: 1438 windows, {np.str_('indoor'): 718, np.str_('outdoor'): 720}
+  user 120: 1440 windows, {np.str_('indoor'): 720, np.str_('outdoor'): 720}

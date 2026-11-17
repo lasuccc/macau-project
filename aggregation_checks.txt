@@ -1,0 +1,10 @@
+PASS  scalar test: models 2 and 8 with counts 1 and 3 give 6.5  (got 6.5)
+PASS  equal counts give the plain mean 5.0  (got 5.0)
+PASS  scaling every count by 5 changes nothing (so counts are not multiplied by epochs)  (6.5 vs 6.5)
+PASS  weights are each client's own number of training windows, nothing else
+PASS  with 2 local epochs the weights stay the same (n_k is not multiplied by epochs)
+PASS  real round matches an independent numpy weighted average  (max difference 7.45e-09)
+PASS  only participating clients are averaged (a 3-client round uses just those 3)
+PASS  client order does not matter  (max difference 0.00e+00)
+PASS  zero learning rate: aggregation keeps the starting weights  (max difference 0.00e+00)
+PASS  tensor types are preserved (float32 stays float32)

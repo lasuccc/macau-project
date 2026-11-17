@@ -1,0 +1,15 @@
+{
+ "checkpoint_id":"67d0880f7bb2",
+ "n_windows":17266,
+ "n_users":12,
+ "accuracy":0.1504112128,
+ "macro_f1_pooled":0.0816122386,
+ "recall_still":0.0,
+ "recall_walking":0.3565972222,
+ "recall_crutches":0.5413194444,
+ "recall_walker":0.0010420285,
+ "recall_manual":0.0,
+ "recall_electric":0.0027806743,
+ "macro_f1_user_mean":0.079762756,
+ "val_loss":1.8682729006
+}
