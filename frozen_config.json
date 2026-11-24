@@ -1,0 +1,78 @@
+{
+  "frozen_at": "2026-11-24T22:23:12",
+  "note": "Frozen from validation results only. Test users had not been scored at this point.",
+  "selection_rule": "Federated: highest best-round validation macro F1; tie goes to fewer local epochs. Best round = highest validation macro F1, tie keeps the earlier round. Central: Week 3 rule.",
+  "seed": 42,
+  "central": {
+    "checkpoint": "mlp_selected.pt",
+    "lr": 0.03,
+    "best_epoch": 49,
+    "epochs_trained": 50,
+    "val_macro_f1": 0.9255558419686868,
+    "optimizer_steps_to_best": 39641,
+    "optimizer_steps_total": 40450,
+    "examples_to_best": 2536975,
+    "examples_total": 2588750,
+    "runtime_s": 9.6
+  },
+  "federated": {
+    "candidate_local_epochs": 3,
+    "checkpoint": "candidate_E3_best.pt",
+    "lr": 0.03,
+    "clients_per_round": 10,
+    "rounds_cap": 50,
+    "selected_round": 46,
+    "val_macro_f1": 0.8666683945048934
+  },
+  "all_candidates": [
+    {
+      "candidate_local_epochs": 3,
+      "lr": 0.03,
+      "clients_per_round": 10,
+      "rounds_cap": 50,
+      "seed": 42,
+      "best_round": 46,
+      "best_val_macro_f1": 0.8666683945048934,
+      "best_val_accuracy": 0.8673114792076915,
+      "last_val_macro_f1": 0.8553744138078457,
+      "optimizer_steps_to_best": 31740,
+      "optimizer_steps_total": 34500,
+      "examples_total": 2157027,
+      "runtime_total_s": 7.18696962291142,
+      "best_checkpoint_id": "fe7623c9b6c1"
+    },
+    {
+      "candidate_local_epochs": 1,
+      "lr": 0.03,
+      "clients_per_round": 10,
+      "rounds_cap": 50,
+      "seed": 42,
+      "best_round": 48,
+      "best_val_macro_f1": 0.8077094913685542,
+      "best_val_accuracy": 0.8118846287501448,
+      "last_val_macro_f1": 0.7936076299857325,
+      "optimizer_steps_to_best": 11040,
+      "optimizer_steps_total": 11500,
+      "examples_total": 719009,
+      "runtime_total_s": 4.537232665985357,
+      "best_checkpoint_id": "bf92ea963ec9"
+    }
+  ],
+  "data": {
+    "train_window_hash": "454451ed45b73e9cdaec1434d0bb66074994d1240aba8ff9f0197608b4457a20",
+    "val_window_hash": "928fa3b2fa168925f83a034d1e2f0114352e757b0eed4d3af07f8f5a4851f6b0",
+    "test_window_id_hash": "16c8d4aeacff160caf2ace46d586ce12fc22c51552044d54e386b2b69829b86d",
+    "split_manifest_hash": "2ad320eed81d12c2584112b22bf8206d88810f06032ae879eca547220c536513",
+    "window_manifest_file_hash": "d44f3a4d3f00411e60486d8fa0f6c53e2e939c9a1f99a281536c37b0649b603c"
+  },
+  "file_sha256": {
+    "mlp_selected.pt": "bdf7d3b4404a7c9ed33eb41c22116fc995dffad4a1262d53ff131331a6ec75cf",
+    "candidate_E3_best.pt": "c5c77edc1d2dc640c70ca5c100f06491b10c267be62b20ed7aaec61e1b44366b",
+    "candidates_validation_summary.csv": "0cca97884b3306926322840ba483d435663acb1009e9e75b6b6b4e66ce6db8f7",
+    "mlp_selection.json": "6a388a80aaadb18d8b554f624f4f84b9748d9b3850a94c20cbd62ff197a2e7b8",
+    "scaler.json": "f1da349dc2e271bb7ac8f0f99fc10586800dddade5051a522f895197aee2299f",
+    "evaluation_contract.json": "5bb4fc283ef68bf52520c3feb0ce266ee05617a44cec41438c1b66983b45c021",
+    "candidate_E1_history.csv": "edcec2a7aa83b7f0b469792e5a9fd5f327c504395fd1fcb5d658e0072995e2da",
+    "candidate_E3_history.csv": "7d572ba76046917a400088ce07e8065d587a86caea458fb633ac11ced53e06da"
+  }
+}

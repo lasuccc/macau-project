@@ -1,0 +1,3 @@
+condition,clients,mean_class_tv_distance,mean_feature_std_across_clients,mean_client_mean_vector_norm
+natural,36,0.0012704900253377996,0.21198377013206482,1.1204028129577637
+mixed,36,0.022173432325023532,0.022368023172020912,0.11912517994642258

@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "rounds": 10,
+  "local_epochs": 1,
+  "lr": 0.03,
+  "clients_per_round": 10,
+  "batch_size": 64,
+  "best_round": 10,
+  "best_validation_macro_f1": 0.6334718128335229,
+  "seconds_per_round_steady": 0.06981220821681842,
+  "estimated_50_round_seconds": 3.490610410840921,
+  "feature_file_sha256": "1fbb3430b53c03908a5b74a0d13800d5391bb4eb9efbe0008173db8aec8b3b1e",
+  "split_file_sha256": "2ad320eed81d12c2584112b22bf8206d88810f06032ae879eca547220c536513",
+  "initial_state_sha256": "82914526a64f40a44a03b214763b49baaf03eb7c16b5218e19952f52ac1bd2c3",
+  "torch": "2.15.0",
+  "numpy": "2.4.6",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "threads": 4
+}

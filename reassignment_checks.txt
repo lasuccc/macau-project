@@ -1,0 +1,8 @@
+PASS  every training window appears exactly once after the reassignment  (51775 windows)
+PASS  the set of training windows is unchanged (matches the Week 3 training hash)
+PASS  every pseudo-client has the same size as the original client it replaces
+PASS  the pooled training data is the same multiset (class counts and feature sums match)
+PASS  validation windows are identical to Week 3
+PASS  test windows are identical to Week 3
+PASS  no validation or test window entered a pseudo-client
+PASS  windows that landed back in their own client by chance  (0.028, about 1/36 = 0.028 expected)

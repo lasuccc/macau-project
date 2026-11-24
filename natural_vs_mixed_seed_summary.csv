@@ -1,0 +1,5 @@
+,val_macro_f1_best,val_macro_f1_best,val_macro_f1_last,val_macro_f1_last
+,mean,std,mean,std
+condition,,,,
+mixed,0.8722,0.0014,0.8713,0.0012
+natural,0.8658,0.0044,0.8594,0.0027

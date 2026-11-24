@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "fed_lr": null,
+  "rounds": 50,
+  "clients_per_round": 10,
+  "candidate_local_epochs": [1, 3],
+  "mix_seed": 42,
+  "seed_sweep": [42, 43, 44, 45, 46]
+}
